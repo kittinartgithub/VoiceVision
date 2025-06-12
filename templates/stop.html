@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right, #AACAEF, #FDE7F9);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h2 {
+            text-align: center;
+            font-size: 60px;
+            color: black;
+        }
+        button {
+            font-size: 50px;
+            width: 1000px;
+            height: 150px;
+            background-color: #70A1FF;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #98D9E1;
+        }
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+        }
+    </style>
+</head>
+<body>
+    <h2>กำลัง{button_clicked}</h2>
+    <div>
+        <form action="/stop" method="post">
+            <button type=" ">Stop</button>
+        </form>
+    </div>
+</body>
+</html>
